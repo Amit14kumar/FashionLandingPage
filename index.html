@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Fashion Brand Landing Page</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <header>
+    <div class="navbar-container containers">
+        <div class="logo">
+            <a href="#">
+                <img src="./logo.png" alt="Fashion Brand Logo">
+            </a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="cta">
+            <a href="#" class="shop-now-btn outlined">Shop Now</a>
+        </div>
+        <div class="hamburger-menu toggle-btn-ham">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+  </header>
+
+  <div class="sidebar" id="sidebar">
+    <div class="cross toggle-btn-close"><i class="fa-solid fa-xmark"></i></div>
+    <div class="sidebar-content">
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+  </div>
+
+
+  <!-- Hero Section -->
+  <div class="hero-container">
+    <div id="hero-split" class="overlay">
+      <div id="half" class="one bc">
+            <div class="text-black">Introducing</div> 
+            <div class="text-white">Our Fall Collection</div> 
+            <button class="shop-now-btn">Shop Now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Grid Section -->
+<div class="main-product-container">
+  <section class="product-grid">
+    <h2>Featured Products</h2>
+    <div class="product-container">
+     <div class="product">
+        <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1685447774_3186210.jpg?format=webp&w=480&dpr=2.0" alt="Product Image" class="default-img">
+        <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1710852766_6220051.jpg?format=webp&w=720&dpr=2.0" alt="Alternate Product Image" class="hover-img">
+        <h3>Product 1</h3>
+        <p>$50.00</p>
+        <button class="add-to-cart" onclick="showProductAddedAlert()">Add to Cart</button>
+      </div>
+     <div class="product">
+        <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1719410116_8835160.jpg?format=webp&w=480&dpr=2.0" alt="Product Image" class="default-img">
+        <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1719410104_9651683.gif?format=webp&w=480&dpr=2.0" alt="Alternate Product Image" class="hover-img">
+        <h3>Product 1</h3>
+        <p>$50.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+     <div class="product">
+        <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1677592790_9874114.jpg?format=webp&w=480&dpr=2.0" alt="Product Image" class="default-img">
+        <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1711112779_6352363.jpg?format=webp&w=1080&dpr=2.0" alt="Alternate Product Image" class="hover-img">
+        <h3>Product 1</h3>
+        <p>$50.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product">
+        <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1725259638_5959326.jpg?format=webp&w=480&dpr=2.0" alt="Product Image" class="default-img">
+        <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1725259638_4230212.jpg?format=webp&w=720&dpr=2.0" alt="Alternate Product Image" class="hover-img">
+        <h3>Product 1</h3>
+        <p>$50.00</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+</div>
+  <!-- Footer -->
+
+<footer>
+  <div class="container">
+
+    <div class="content">
+      <div class="content_column">
+        <h3>Resources</h3>
+        <ul>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">API Docs</a></li>
+        </ul>
+    </div>
+    <div class="content_column">
+        <h3>Contact</h3>
+        <ul>
+            <li><a href="#">Email Us</a></li>
+            <li><a href="#">Office Locations</a></li>
+            <li><a href="#">Partnerships</a></li>
+        </ul>
+    </div>
+    <div class="content_column">
+      <h3>Resources</h3>
+      <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#">Developers</a></li>
+          <li><a href="#">API Docs</a></li>
+      </ul>
+  </div>
+  <div class="content_column">
+      <h3>Contact</h3>
+      <ul>
+          <li><a href="#">Email Us</a></li>
+          <li><a href="#">Office Locations</a></li>
+          <li><a href="#">Partnerships</a></li>
+      </ul>
+  </div>
+  <div class="content_column newsletter-column">
+    <h3>Subscribe to our Newsletter</h3>
+    <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
+      <!-- <div class="top">
+        <div class="logo-details">
+          <span class="webistename">AMit.</span>
+        </div>
+      </div> -->
+  
+      <!-- Newsletter Section -->
+      <!-- <div class="container">
+        <span class="link_name newsletter-title">Newsletter</span>
+        <div class="container__item">
+         
+          <form class="form">
+            <input type="email" class="form__field" placeholder="Your E-Mail Address" />
+            <button type="button" class="btn btn--primary btn--inside uppercase">Subscribe</button>
+          </form>
+        </div>
+      </div> -->
+      
+    </div>
+    <div class="bottom_details">
+      <div class="bottom_text">
+        <span> 2024 MyWebsite. All rights reserved.</span>
+      </div>
+      <div class="media-icons">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+<script src="script.js"></script>
+<!-- Sidebar and Hamburger Done-->
+<!-- Card Fix -->
+<!-- Hero Section Image and Text Animation -->
+<!-- Responsive Font Sizes -->
+<!-- Put Colors Into Variables -->
+</html>
