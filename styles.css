@@ -568,21 +568,7 @@ footer .container{
   padding: 5px 20px;
   text-align:right;
 }
-/* @media (max-width: 768px) {
-  .toggle-btn {
-      display: block;
-  }
 
-  .sidebar {
-      width: 100%; 
-  }
-
-  .main-content.shift {
-      margin-left: 0; 
-  }
-} */
-
-/* -----------End Sidebar------------ */
 
 
 /* Tablet Landscape */
@@ -616,13 +602,7 @@ footer .container{
   .sidebar .nav-links{
     font-size:5rem;
   }
-  /* .sidebar .cross{
-    z-index:1001;
-    cursor: pointer;
-    font-size:2.5rem;
-    padding: 5px 20px;
-    text-align:right;
-  } */
+ 
 
   .half .text-white{
     font-size:3rem;
